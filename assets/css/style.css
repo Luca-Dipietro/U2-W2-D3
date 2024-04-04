@@ -178,9 +178,39 @@ nav .nav-bar a {
   line-height: 0.95;
   margin-bottom: 1rem;
   color: #28064f;
+  animation-name: animate-from-top-u3p7pmc;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 300ms;
+}
+@keyframes animate-from-top-u3p7pmc {
+  from {
+    opacity: 0;
+    translate: 0 -10px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
 }
 .hero .btn-container {
   margin-inline: auto;
+}
+.hero .btn-container button {
+  animation-name: animate-from-top-u3p7pn6;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 700ms;
+}
+@keyframes animate-from-top-u3p7pn6 {
+  from {
+    opacity: 0;
+    translate: 0 -10px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
 }
 .hero .pImg-container {
   display: flex;
@@ -191,10 +221,38 @@ nav .nav-bar a {
 .hero .pImg-container .p-section p {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
+  animation-name: animate-from-top-u3p7pnl;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 500ms;
+}
+@keyframes animate-from-top-u3p7pnl {
+  from {
+    opacity: 0;
+    translate: 0 -10px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
 }
 .hero .pImg-container .img-container img {
   width: 500px;
   display: block;
+  animation-name: animate-from-top-u3p7po4;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 800ms;
+}
+@keyframes animate-from-top-u3p7po4 {
+  from {
+    opacity: 0;
+    translate: 0 -10px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
 }
 
 .grid-container {

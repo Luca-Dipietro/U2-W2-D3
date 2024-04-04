@@ -36,11 +36,16 @@ nav {
 
     h1{
         margin-inline: auto;
-        @include title-big
+        @include title-big;
+        @include animate-from-top(1s, 10px, 0, 300ms);
+    
     }
 
     .btn-container{
         margin-inline: auto;
+        button{
+            @include animate-from-top(1s, 10px, 0, 700ms);
+        }
     }
     .pImg-container{
         display: flex;
@@ -51,12 +56,14 @@ nav {
             p{
                 font-size: $font-size-normal;
                 font-family: $font-default;
+                @include animate-from-top(1s, 10px, 0, 500ms);
             }
         }
         .img-container{
             img{
                 width: 500px;
                 display: block;
+                @include animate-from-top(1s, 10px, 0, 800ms);
             }
         }
     }
