@@ -35,6 +35,7 @@ nav {
 
     h1{
         margin-inline: auto;
+        @include title-big
     }
 
     .btn-container{
@@ -43,7 +44,7 @@ nav {
     .pImg-container{
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
         text-align: center;
         .img-container{
             img{

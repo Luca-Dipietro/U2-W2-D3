@@ -171,6 +171,12 @@ nav .nav-bar a {
 }
 .hero h1 {
   margin-inline: auto;
+  font-size: 96px;
+  font-weight: 900;
+  letter-spacing: -6px;
+  line-height: 0.95;
+  margin-bottom: 1rem;
+  color: #28064f;
 }
 .hero .btn-container {
   margin-inline: auto;
@@ -178,7 +184,7 @@ nav .nav-bar a {
 .hero .pImg-container {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   text-align: center;
 }
 .hero .pImg-container .img-container img {
