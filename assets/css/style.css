@@ -140,6 +140,7 @@ body {
 
 body {
   color: #f4f4f4;
+  height: 100vh;
 }
 
 nav {
@@ -147,6 +148,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: darkorchid;
+  height: 15vh;
 }
 nav .nav-bar a {
   text-decoration: none;
@@ -154,7 +156,7 @@ nav .nav-bar a {
 }
 
 .logo-container img {
-  max-width: 125px;
+  height: 10vh;
 }
 
 .hero {
