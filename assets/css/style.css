@@ -111,7 +111,6 @@ body {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  margin: 5px;
 }
 .button.blue:hover {
   background-color: #0055da;
@@ -123,7 +122,6 @@ body {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  margin: 5px;
 }
 .button.orange:hover {
   background-color: #cc6c00;
@@ -135,7 +133,6 @@ body {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  margin: 5px;
 }
 .button.green:hover {
   background-color: #3d8b40;
@@ -149,13 +146,15 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: darkorchid;
 }
 nav .nav-bar a {
   text-decoration: none;
+  color: #f4f4f4;
 }
 
 .logo-container img {
-  max-width: 100px;
+  max-width: 125px;
 }
 
 .hero {
@@ -183,4 +182,9 @@ nav .nav-bar a {
 }
 .grid-container .grid-item img {
   width: 100%;
+  border-radius: 5px;
+}
+
+.btn {
+  color: #f4f4f4;
 }/*# sourceMappingURL=style.css.map */
