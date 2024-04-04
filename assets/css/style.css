@@ -178,12 +178,12 @@ nav .nav-bar a {
   line-height: 0.95;
   margin-bottom: 1rem;
   color: #28064f;
-  animation-name: animate-from-top-u3p7pmc;
+  animation-name: animate-fade-in;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 300ms;
 }
-@keyframes animate-from-top-u3p7pmc {
+@keyframes animate-fade-in {
   from {
     opacity: 0;
     translate: 0 -10px;
@@ -197,12 +197,12 @@ nav .nav-bar a {
   margin-inline: auto;
 }
 .hero .btn-container button {
-  animation-name: animate-from-top-u3p7pn6;
+  animation-name: animate-fade-in;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 700ms;
 }
-@keyframes animate-from-top-u3p7pn6 {
+@keyframes animate-fade-in {
   from {
     opacity: 0;
     translate: 0 -10px;
@@ -221,12 +221,12 @@ nav .nav-bar a {
 .hero .pImg-container .p-section p {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
-  animation-name: animate-from-top-u3p7pnl;
+  animation-name: animate-fade-in;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 500ms;
 }
-@keyframes animate-from-top-u3p7pnl {
+@keyframes animate-fade-in {
   from {
     opacity: 0;
     translate: 0 -10px;
@@ -239,12 +239,12 @@ nav .nav-bar a {
 .hero .pImg-container .img-container img {
   width: 500px;
   display: block;
-  animation-name: animate-from-top-u3p7po4;
+  animation-name: animate-fade-in;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 800ms;
 }
-@keyframes animate-from-top-u3p7po4 {
+@keyframes animate-fade-in {
   from {
     opacity: 0;
     translate: 0 -10px;
