@@ -1,0 +1,14 @@
+@each $color, $value in $colorMap {
+    .button.#{$color} {
+      background-color: $value;
+      color: $text-color;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin: 5px;
+      
+      &:hover {
+        background-color: darken($value, 10%);
+      }
+    }
+  }
