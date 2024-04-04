@@ -25,14 +25,22 @@ nav {
 
 .logo-container img{
     height: 10vh;
+    display: block;
 }
 
 .hero{
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: $hero-color;
-    .titleImg-container{
+
+    h1{
+        margin-inline: auto;
+    }
+
+    .btn-container{
+        margin-inline: auto;
+    }
+    .pImg-container{
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -40,6 +48,7 @@ nav {
         .img-container{
             img{
                 width: 500px;
+                display: block;
             }
         }
     }
@@ -52,7 +61,7 @@ nav {
         width: 25%;
         img{
             width: 100%;
-            border-radius: 5px;
+            display: block;
         }
     }
 }

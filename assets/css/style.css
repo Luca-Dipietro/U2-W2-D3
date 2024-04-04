@@ -9,6 +9,10 @@ body {
   padding: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .padding-inline-xs {
   padding-inline: 10px;
 }
@@ -157,22 +161,29 @@ nav .nav-bar a {
 
 .logo-container img {
   height: 10vh;
+  display: block;
 }
 
 .hero {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #640fc5;
 }
-.hero .titleImg-container {
+.hero h1 {
+  margin-inline: auto;
+}
+.hero .btn-container {
+  margin-inline: auto;
+}
+.hero .pImg-container {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   text-align: center;
 }
-.hero .titleImg-container .img-container img {
+.hero .pImg-container .img-container img {
   width: 500px;
+  display: block;
 }
 
 .grid-container {
@@ -184,7 +195,7 @@ nav .nav-bar a {
 }
 .grid-container .grid-item img {
   width: 100%;
-  border-radius: 5px;
+  display: block;
 }
 
 .btn {
